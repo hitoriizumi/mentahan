@@ -1,0 +1,156 @@
+.font-about {
+  font-family: Londrina Solid;
+  font-size: 20px;
+  color: white;
+}
+
+.font-faq {
+  font-family: Londrina Solid;
+  font-size: 20px;
+  color: #143A52;
+}
+
+.font-first {
+  font-family: Londrina Solid;
+  color: #143A52;
+}
+
+.font-nav {
+  font-family: Londrina Solid;
+  font-size: 25px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #143A52;
+}
+
+.btn {
+  color: white;
+  background-color: #143A52;
+  font-size: 20px;
+}
+
+.login-btn {
+  margin-left: 20px;
+}
+
+.login-btn :hover {
+  background-color: #6E828A;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+  
+  .nav-links {
+    margin: 10px 0;
+  }
+}
+
+.banner {
+  background-color: white;
+}
+
+.opacity {
+  background: 0.35;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+}
+
+.banner2 {
+  background-color: #143A52;
+}
+
+.warna1 {
+  background-color: #633971;
+}
+
+.warna2 {
+  background-color: black;
+}
+
+.warna3{
+  background-color: white;
+}
+
+.warna4 {
+  background-color: #5c5c5c;
+}
+
+.warna5 {
+  background-color: #acabab;
+}
+
+.warna6 {
+  color: #5c5c5c;
+}
+
+.warna7 {
+  color: white;
+}
+
+.warna8 {
+  color: #143A52;
+}
+
+.no-decoration{
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.no-decoration:hover {
+  color: #C39BD3;
+}
+
+footer {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.image-container {
+  position: relative;
+  z-index: 1;
+}
+
+.float-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  width: 80%;
+  height: auto;
+}

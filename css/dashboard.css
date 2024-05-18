@@ -1,0 +1,335 @@
+.body {
+  background-color: #E3EFF3;
+  font-family: Londrina Solid;
+}
+  
+  .font-about {
+    font-family: Londrina Solid;
+    font-size: 20px;
+    color: #143A52;
+  }
+  
+  .font-fact {
+    font-family: Londrina Solid;
+    font-size: 20px;
+    color: white;
+  }
+
+  .font-fact2 {
+    font-family: Londrina Solid;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .font-first {
+    font-family: Londrina Solid;
+    color: #143A52;
+  }
+  
+  .font-nav {
+    font-family: Londrina Solid;
+    font-size: 25px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  
+  .logo {
+    margin-right: 20px;
+  }
+  
+  .navbar-nav {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #143A52;
+  }
+  
+  .btn {
+    color: white;
+    background-color: #143A52;
+    font-size: 20px;
+  }
+  
+  .login-btn {
+    margin-left: 20px;
+  }
+  
+  .login-btn :hover {
+    background-color: #6E828A;
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+    
+    .nav-links {
+      margin: 10px 0;
+    }
+  }
+
+.warna1 {
+    background-color: #633971;
+}
+
+.warna2 {
+    background-color: black;
+}
+
+.warna3{
+    background-color: white;
+}
+
+.warna4 {
+    background-color: #5c5c5c;
+}
+
+.warna5 {
+    background-color: #acabab;
+}
+
+.warna6 {
+    color: #5c5c5c;
+}
+
+.warna7 {
+    color: white;
+}
+
+.banner {
+    height: 30vh;
+    background: url('../image/gif.gif');
+    width: 90%;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner2 {
+    background-color: #143A52;
+  }
+
+  .fact {
+    background-color: #143A52;
+  }
+
+.banner3 {
+    height: 20vh;
+    background: url('../image/bg2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.no-decoration{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.no-decoration:hover {
+    color: #C39BD3;
+}
+
+.link{
+    color: white;
+}
+
+.card-body2{
+    background-color: #633971;
+    color: white;
+    border-radius: 4px;
+}
+
+section{
+    padding: 50px;
+}
+
+.btn-black {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-black:hover {
+    background-color: #222;
+  }
+
+  footer {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  }
+  
+  .melayang1 {
+    top: -10px; /* shift upwards by 20px */
+    left: 40%; /* shift left by 30px */
+    transform: translate(-50%, 0); /* adjust the horizontal centering */
+  }
+
+  .melayang2 {
+    top: 20px; /* shift upwards by 20px */
+    left: 65%; /* shift left by 30px */
+    transform: translate(-50%, 0); /* adjust the horizontal centering */
+  }
+
+  .melayang3 {
+    top: 60%; /* shift upwards by 20px */
+    right: 75%; /* shift left by 30px */
+    transform: translate(-50%, 0); /* adjust the horizontal centering */
+  }
+
+  .bawah {
+    height: 30vh;
+    background-color: #E3EFF3;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+  }
+  
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+  }
+  
+  .flip-card-front {
+    background: url('../image/flip1.png');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .flip-card-back {
+    background: #143A52;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front2, .flip-card-back2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+  }
+
+  .flip-card-front2 {
+    background: url('../image/flip2.png');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .flip-card-back2 {
+    background: #143A52;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front3, .flip-card-back3 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+  }
+
+  .flip-card-front3 {
+    background: url('../image/flip3.png');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .flip-card-back3 {
+    background: #143A52;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front4, .flip-card-back4 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+  }
+  .flip-card-front4 {
+    background: url('../image/flip1.png');
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .flip-card-back4 {
+    background: #143A52;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .final {
+    width: 100%;
+    transition: transform 0.8s;
+  }
+
+  .final:hover {
+    transform: scale(1.1);
+  }
